@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23755" started-at="2021-10-25T06:02:38 IST" finished-at="2021-10-25T06:03:02 IST">
+  <suite name="Suite" duration-ms="27899" started-at="2021-10-25T14:23:36 IST" finished-at="2021-10-25T14:24:04 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23755" started-at="2021-10-25T06:02:38 IST" finished-at="2021-10-25T06:03:02 IST">
-      <class name="com.ebanking.TestCases.Tc_logintest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@12d3a4e9]" name="setup" is-config="true" duration-ms="11888" started-at="2021-10-25T06:02:38 IST" finished-at="2021-10-25T06:02:50 IST">
+    <test name="Test" duration-ms="27899" started-at="2021-10-25T14:23:36 IST" finished-at="2021-10-25T14:24:04 IST">
+      <class name="com.ebanking.TestCases.Tc_registor_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@548a102f]" name="setup" is-config="true" duration-ms="2621" started-at="2021-10-25T14:23:49 IST" finished-at="2021-10-25T14:23:51 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@12d3a4e9]" name="login" duration-ms="8604" started-at="2021-10-25T06:02:50 IST" finished-at="2021-10-25T06:02:58 IST">
+        <test-method status="PASS" signature="regitor()[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@548a102f]" name="regitor" duration-ms="11457" started-at="2021-10-25T14:23:51 IST" finished-at="2021-10-25T14:24:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regitor -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@548a102f]" name="teardown" is-config="true" duration-ms="1362" started-at="2021-10-25T14:24:03 IST" finished-at="2021-10-25T14:24:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ebanking.TestCases.Tc_registor_002 -->
+      <class name="com.ebanking.TestCases.Tc_logintest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@240237d2]" name="setup" is-config="true" duration-ms="4008" started-at="2021-10-25T14:23:36 IST" finished-at="2021-10-25T14:23:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@240237d2]" name="login" duration-ms="6481" started-at="2021-10-25T14:23:40 IST" finished-at="2021-10-25T14:23:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@12d3a4e9]" name="teardown" is-config="true" duration-ms="3002" started-at="2021-10-25T06:02:58 IST" finished-at="2021-10-25T06:03:01 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@240237d2]" name="teardown" is-config="true" duration-ms="1920" started-at="2021-10-25T14:23:47 IST" finished-at="2021-10-25T14:23:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

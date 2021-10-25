@@ -5,7 +5,8 @@
   <parameter name="browser" value="chrome" />
   
     <classes>
-      <class name="com.ebanking.TestCases.Tc_logintest_001"/>
+    <class name="com.ebanking.TestCases.Tc_logintest_001"/>
+       <class name="com.ebanking.TestCases.Tc_registor_002"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
