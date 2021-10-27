@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27899" started-at="2021-10-25T14:23:36 IST" finished-at="2021-10-25T14:24:04 IST">
+  <suite name="Suite" duration-ms="74993" started-at="2021-10-27T17:20:01 IST" finished-at="2021-10-27T17:21:16 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27899" started-at="2021-10-25T14:23:36 IST" finished-at="2021-10-25T14:24:04 IST">
-      <class name="com.ebanking.TestCases.Tc_registor_002">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@548a102f]" name="setup" is-config="true" duration-ms="2621" started-at="2021-10-25T14:23:49 IST" finished-at="2021-10-25T14:23:51 IST">
+    <test name="Test" duration-ms="74993" started-at="2021-10-27T17:20:01 IST" finished-at="2021-10-27T17:21:16 IST">
+      <class name="com.ebanking.TestCases.Testcase_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Testcase_003@17c386de]" name="setup" is-config="true" duration-ms="3464" started-at="2021-10-27T17:21:00 IST" finished-at="2021-10-27T17:21:03 IST">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="regitor()[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@548a102f]" name="regitor" duration-ms="11457" started-at="2021-10-25T14:23:51 IST" finished-at="2021-10-25T14:24:03 IST">
+        <test-method status="PASS" signature="signup()[pri:0, instance:com.ebanking.TestCases.Testcase_003@17c386de]" name="signup" duration-ms="11015" started-at="2021-10-27T17:21:03 IST" finished-at="2021-10-27T17:21:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Testcase_003@17c386de]" name="teardown" is-config="true" duration-ms="1515" started-at="2021-10-27T17:21:14 IST" finished-at="2021-10-27T17:21:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ebanking.TestCases.Testcase_003 -->
+      <class name="com.ebanking.TestCases.Tc_registor_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@5762806e]" name="setup" is-config="true" duration-ms="10360" started-at="2021-10-27T17:20:37 IST" finished-at="2021-10-27T17:20:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="regitor()[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@5762806e]" name="regitor" duration-ms="11546" started-at="2021-10-27T17:20:47 IST" finished-at="2021-10-27T17:20:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regitor -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@548a102f]" name="teardown" is-config="true" duration-ms="1362" started-at="2021-10-25T14:24:03 IST" finished-at="2021-10-25T14:24:04 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Tc_registor_002@5762806e]" name="teardown" is-config="true" duration-ms="1490" started-at="2021-10-27T17:20:58 IST" finished-at="2021-10-27T17:21:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ebanking.TestCases.Tc_registor_002 -->
       <class name="com.ebanking.TestCases.Tc_logintest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@240237d2]" name="setup" is-config="true" duration-ms="4008" started-at="2021-10-25T14:23:36 IST" finished-at="2021-10-25T14:23:40 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@25a65b77]" name="setup" is-config="true" duration-ms="24510" started-at="2021-10-27T17:20:01 IST" finished-at="2021-10-27T17:20:26 IST">
           <params>
             <param index="0">
               <value>
@@ -39,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@240237d2]" name="login" duration-ms="6481" started-at="2021-10-25T14:23:40 IST" finished-at="2021-10-25T14:23:47 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@25a65b77]" name="login" duration-ms="7845" started-at="2021-10-27T17:20:26 IST" finished-at="2021-10-27T17:20:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@240237d2]" name="teardown" is-config="true" duration-ms="1920" started-at="2021-10-25T14:23:47 IST" finished-at="2021-10-25T14:23:49 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebanking.TestCases.Tc_logintest_001@25a65b77]" name="teardown" is-config="true" duration-ms="3079" started-at="2021-10-27T17:20:33 IST" finished-at="2021-10-27T17:20:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

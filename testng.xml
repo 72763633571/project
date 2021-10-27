@@ -7,6 +7,7 @@
     <classes>
     <class name="com.ebanking.TestCases.Tc_logintest_001"/>
        <class name="com.ebanking.TestCases.Tc_registor_002"/>
+        <class name="com.ebanking.TestCases.Testcase_003"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
